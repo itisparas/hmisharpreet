@@ -1,0 +1,170 @@
+<html>
+<head>
+</title>
+</title>
+	<style>
+		body
+			{
+				margin:0px;
+				padding:0px;
+			}
+		.f-size
+			{
+				font-size:26px;
+				
+			}
+		.green
+			{
+				color:#1EA38E;
+				text-decoration:none !important;
+			}
+		
+		.bold
+			{
+			font-weight:600;
+			}
+		.imaging
+			{
+				margin-top:5px;
+				width:110px;
+				color:#1EA38E !important;
+			}
+		.imaging:hover
+			{
+				background:#1EA38E !important;
+				color:white !important;
+			}
+		.head_color
+			{
+				background:#2F4358 !important;
+			}
+		.panel_color
+			{
+				background:;
+			}
+		.dropdown_cog
+			{
+			background:#1EA38E !important;
+			}
+		.panels
+			{
+				background:#2F4358 !important;
+			}
+		hr
+			{
+				margin:0px !important;
+				margin-left:12px !important;
+				margin-right:12px !important;
+			}
+		.panel-body
+			{
+				padding-left:20px !important;
+			}
+		.panel-heading
+			{
+				border:none !important;
+			}
+		.glyphi
+			{
+				color:white !important;
+				margin-right:10px;
+			}
+		.main
+			{
+				color:white;
+				text-decoration:none !important;
+			}
+		.main:hover
+			{
+				color:white;
+				text-decoration:none !important;
+				opacity:0.5 !Important;
+				transition:0.2s;
+			}
+		.mouse:hover
+			{
+			 opacity:0.5 !important;
+			 transition:0.2s;
+			}
+		.panel-body
+			{
+				border-bottom:solid 1.5px #263648;
+				background:#2F4358 !important;
+			}
+		.panel-body:hover
+			{
+				background:#546A83 !important;
+				transition:0.2s;
+			}
+		a
+			{
+				text-decoration:none !important;
+				color:white !important;
+				font-size:16px;
+			}
+		
+		.input-group-addon:hover
+			{
+				opacity:0.8s;
+				background:lightgrey !important;
+				transition:0.2s
+			}
+		.input-group-addon
+			{
+				transition:0.2s;
+			}
+		.glyphi
+			{
+				
+			}
+		</style>
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="col-sm-3" style="height:100%;background:#263648;position:fixed;margin-left:-15px;">
+		<div class="panel panel-default" style="margin-right:-15px;border:none">
+			<div class="panel-heading head_color">
+				<a href="www.google.com" class="f-size  main mouse">
+					<span class="glyphicon glyphicon-plus" style="color:#1EA38E"></span><b class="hospital"> Hospital</b>
+					<span class="green">Run</span>
+				</a>
+				<div class="dropdown pull-right">
+					<button class="glyphicon glyphicon-cog dropdown-toggle pull-right" type="button" id="menu1" data-toggle="dropdown" style="background:none;border:none;color:#92A7BC;margin-top:10px">
+					</button>
+					<ul class="dropdown-menu dropdown_cog">
+						<li ><a href="#" >Log out</a></li>
+						 <li class="divider"></li>
+						<li ><a href="#" >About HospitalRun</a></li>
+					</ul>
+				</div>
+			</div>
+			<div style="background:#263648;padding:10px 0 10px 0">
+				<div class="input-group" style="width:80%;margin:auto;border-radius:10px !important; ">
+					<input id="email" type="text" class="form-control" name="email" placeholder="Search" style="background:#546A83"">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+				</div>
+			</div>
+		
+				<div class="panels" style="border:none !important;">
+					<a href="#" ><div class="panel-body "><div class="glyphicon glyphicon-user glyphi"></div>Patient</div></a>
+		
+					<a href="#" ><div class="panel-body "><div class="glyphicon glyphicon-camera glyphi "></div>Imaging</div></a>
+					
+					<a href="#" ><div class="panel-body "><div class="glyphicon glyphicon-file glyphi "></div>Madication</div></a>
+					
+					<a href="#" ><div class="panel-body panel_color"><div class="glyphicon glyphicon-ok glyphi"></div>Labs</div></a>
+				</div>
+		</div>
+	</div>
+			<div class="col-sm-9 pull-right" style="padding:10px 10px 10px 10px;box-sizing:border-box">
+				<span style="font-size:28px"><b>Imaging Requests</b></span>
+				<button type="button" class="btn btn-default pull-right imaging" >Default</button>
+				<hr style="margin-top:10px !important">
+			</div>
+</body>
+</html>
